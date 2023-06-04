@@ -1,0 +1,45 @@
+.home__wrapper{
+    background: linear-gradient(60deg, rgba(2, 2, 131, 0.568),rgba(2, 2, 53, 0.658)), url('../assets/gulp-drinking-coffee.jpg');
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+.home__content{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(2, 2, 66, 0.664);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.home__content h1{
+    font-size: 2.5rem;
+    margin: 0px;
+}
+
+.home__content p{
+    color: whitesmoke;
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .home__content{
+        margin: 2rem;
+    }
+
+    
+}

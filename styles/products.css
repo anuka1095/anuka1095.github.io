@@ -1,0 +1,64 @@
+h1{
+    margin: 1rem;
+}
+.products__wrapper{
+   margin-top: 1rem;
+   padding: 1rem;
+
+ 
+}
+
+.products__card{
+    display: grid;
+    margin: 1rem;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+   
+}
+
+.products__card img{
+    border-radius: 10px;
+    
+}
+
+.products__cardText{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 15px;
+    
+}
+
+.products__cardText h3,.products__cardText p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+article{
+    flex-basis: 100%;
+}
+
+
+
+
+
+@media screen and (max-width:830px) {
+    .products__card{
+        grid-template-columns: auto auto;
+    }
+
+  
+}
+
+@media screen and (max-width:600px) {
+    .products__card{
+        grid-template-columns: auto;
+    }
+
+    .products__card img{
+        display: block;
+        width: 100%;
+    }
+
+    
+}

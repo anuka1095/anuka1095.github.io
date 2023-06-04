@@ -1,0 +1,14 @@
+article{
+    flex-basis: 45%;
+}
+
+figure {
+    flex-basis: 50%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+
+.contact p,.contact a{
+    font-size: 1.5rem;
+}
